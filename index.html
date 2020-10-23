@@ -1,104 +1,88 @@
-<HTML>
-<HEAD>
-
-<TITLE>Fundamentos e tendências em visão e processamento de imagens</TITLE>
-
-</HEAD>
-
-<BODY bgcolor = #ffffff>
-
-<CENTER>
-<H1>
-Fundamentos e tendências em visão e processamento de imagens
- </H1>
-<H2><I>
-2020: Entendendo os avanços recentes e o que está por vir
-</I>
-</H2>
-<P>
-<H3>
-Outubro - Dezembro
-</H3>
-</CENTER>
-
-<P><HR>
-
-<H3>ASobre o grupo de estudo</H3>
-<UL>
-
-<LI>  <a href=http://www.visgraf.impa.br/Courses/ipcg.html>
-Inspirado neste curso criado pelo IMPA</a>
-
-<LI> Autor Original: <A HREF=http://www.impa.br/~lvelho>
-Luiz Velho</a>
-
-<LI> Adaptado por: 
-<A HREF="mailto:pedroarthur@nca.ufma.br">
-Pedro Arthur
-</A>
-
-
-<LI> Encontros:
-<br>
-Todas as sextas às 14:00 (online)
-
-
-</UL>
-
-<P><HR>
-
-<H3>Material do curso</H3>
-
-<UL>
-
-<p>
-<LI> <a href=reading.html>Leitura </a>
-<p>
-<LI> <a href=./software/index.html> Software </a>
-
-</UL>
-
-<P><HR>
-
-<H3>Aulas</H3>
-
-<UL>
-
-<LI> <a href=https://www.youtube.com/playlist?list=PLo4jXE-LdDTRaFa39TdNN3FgPAKkcuHvj>
-Playlist </a>
-<br><br>
-<LI> <a href=lectures/books.html> Livros texto </a>
-</UL> 
-
-
-
-<P><HR>
-<H3>Desafios</H3>
-
-<UL>
-<LI> <a href=./assgn/assgn.html> Projetos</a>
-<LI> <a href=https://www.youtube.com/playlist?list=PLo4jXE-LdDTQcBos0a0olX9BPxdgmDqKJ>
-Lab Classes Videos </a>
-<br><br>
-<LI> <a href=./proj/index.html> Indicações de Tópicos </a>
-
-</UL>
-
-
-
-
-<P><HR>
-<H3> Outros recursos importantes </H3>
-
-<UL>
-<LI> <a href=software/software.html> Softwares auxiliares </a>
-<LI> <a href=resources.html> Links </a>
-<LI> <a href=courses.html> Notícias </a>
-
-</UL>
-
-
-<P><HR>
-
-</BODY>
-</HTML>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>ClearMinimalist</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.cycle.all.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('#slideshow').cycle({
+        fx:     'fade',
+        speed:  'slow',
+        timeout: 3000,
+        pager:  '#slider_nav',
+        pagerAnchorBuilder: function(idx, slide) {
+            // return sel string for existing anchor
+            return '#slider_nav li:eq(' + (idx) + ') a';
+        }
+    });
+});
+</script>
+</head>
+<body>
+<div class="main">
+  <div class="main_resize">
+    <div class="main_left">
+      <div class="logo"><h1>Estudos em PI e CV</h1></div>
+      <div class="clr"></div>
+      <div class="menu">
+        <ul>
+          <li><a href="index.html" class="active"><span>Semana 1</span></a></li>
+          <li><a href="semana2.html"><span>Semana 2</span></a></li>
+        </ul>
+      </div>
+      <div class="clr"></div>
+      <h2>&nbsp;</h2>
+      <h2>Últimas atualizações</h2>
+      <p><span>12 Dec 2015 | 0 comments</span><br />
+        <strong>Duis nec porttitor lorem</strong><br />
+        Mauris et nisi urna nonfaucibus magna. Integer lacus ante then ullamcorper ut vulputate..</p>
+      <p><span>14 Dec 2015 | 0 comments</span><br />
+        <strong>Duis nec porttitor lorem</strong><br />
+        Mauris et nisi urna nonfaucibus magna. Integer lacus ante then ullamcorper ut vulputate..</p>
+      
+    </div>
+    <div class="main_right">
+      <div class="clr"></div>
+      <div class="clr"></div>
+      <h2 style="padding:30px 0 5px 5px;">Welcome to Company.<br />
+        <span> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</span> </h2>
+      <p class="grey">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium mque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <div class="main_right_bg">
+        <div class="blog"> <img src="images/img_1.jpg" class="floated" border="0" alt="" />
+          <p><strong>Fusce vehicula dignissim <br />
+            ligula.</strong> Vestibulum sit amet neque eu neque suscipit consequat quis vel risus. <a href="#">Continue Reading »</a></p>
+        </div>
+        <div class="blog"> <img src="images/img_2.jpg" class="floated" border="0" alt="" />
+          <p><strong>Fusce vehicula dignissim <br />
+            ligula.</strong> Vestibulum sit amet neque eu neque suscipit consequat quis vel risus. <a href="#">Continue Reading »</a></p>
+        </div>
+        <div class="blog"> <img src="images/img_3.jpg" class="floated" border="0" alt="" />
+          <p><strong>Fusce vehicula dignissim <br />
+            ligula.</strong> Vestibulum sit amet neque eu neque suscipit consequat quis vel risus. <a href="#">Continue Reading »</a></p>
+        </div>
+        <div class="blog"> <img src="images/img_4.jpg" class="floated" border="0" alt="" />
+          <p><strong>Fusce vehicula dignissim <br />
+            ligula.</strong> Vestibulum sit amet neque eu neque suscipit consequat quis vel risus. <a href="#">Continue Reading »</a></p>
+        </div>
+        <div class="clr"></div>
+      </div>
+      <p class="grey"><em>Vestibulum vehicula purus nec dui accumsan fermentum. Suspendisse potenti. Ut dapibus est id odio pretium blandit in eget leo. Aliquam erat volutpat. </em></p>
+      <h2>What we offer</h2>
+      <p class="grey">Nunc urna eros, viverra sit amet tempor non, aliquam sit amet felis. Suspendisse potenti. Mauris sed lectus at sem hendrerit condimentum. Donec pellentesque ligula pharetra dui lacinia nec tempor leo feugiat. Mauris vitae sapien tellus, vel consequat libero. Vivamus posuere</p>
+      <p>&nbsp;</p>
+      <p>&nbsp;</p>
+    </div>
+    <div class="clr"></div>
+  </div>
+  <div class="footer">
+    <div class="footer_resize">
+      <p>Orgaizado pelo<a href="mailto:pedroarthur@nca.ufma.br"> VipLab</a></p>
+      <div class="clr"></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
